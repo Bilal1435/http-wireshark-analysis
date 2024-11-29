@@ -41,7 +41,7 @@ server {
   index index.html;
 }
 Save
-2. Generating SSL Certificates
+# Generating SSL Certificates
 
 Navigate to the Project Root:
 
@@ -107,7 +107,7 @@ services:
       
 Save
 
-#TEST
+# TEST
 Enter the directory{root_project}/
 Open terminal
 Run the commanddocker-compose up
