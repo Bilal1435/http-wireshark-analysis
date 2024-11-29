@@ -1,20 +1,24 @@
-Docker:
+# DOCKER:
 
-Installation: Ensure Docker and Docker Compose are installed on your system. If not, download and install them from the official Docker website.
-OpenSSL:
 
-Installation: Verify that OpenSSL is installed on your system. If not, install it using your system's package manager (e.g., apt, yum, brew).
+
+1. Installation: Ensure Docker and Docker Compose are installed on your system. If not, download and install them from the official Docker website.
+# OpenSSL:
+
+1. Installation: Verify that OpenSSL is installed on your system. If not, install it using your system's package manager (e.g., apt, yum, brew).
 Project Structure:
 
-Create a Project Directory:
+2. Create a Project Directory:
 
-Set up a new project folder on your local machine.
-Create an Nginx Configuration Directory:
+3. Set up a new project folder on your local machine.
+4. Create an Nginx Configuration Directory:
 
-Within your project directory, create a folder named nginx-config.
-Create the Nginx Configuration File:
+5. Within your project directory, create a folder named nginx-config.
+6. Create the Nginx Configuration File:
 
-Inside the nginx-config folder, create a file named default.conf. This file will hold the Nginx configuration settings
+7. Inside the nginx-config folder, create a file named default.conf. This file will hold the Nginx configuration settings
+
+   
 server {
   # HTTP/1.1 listen on port 80
   listen 80;
@@ -86,7 +90,7 @@ Enter the following code
 </body>
 
 </html>
-3. Docker Compose
+# DOCKER COMPOSE 
 Create a filedocker-compose.yml
 Enter the following code
 version: '3.8'
@@ -100,8 +104,10 @@ services:
       - ./nginx-config:/etc/nginx/conf.d
       - ./ssl:/etc/nginx/certs
       - ./index.html:/var/www/index.html
+      
 Save
-Test
+
+#TEST
 Enter the directory{root_project}/
 Open terminal
 Run the commanddocker-compose up
