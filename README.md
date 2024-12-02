@@ -95,6 +95,6 @@ Create a filedocker-compose.yml
 # Open Chrome browser, access localhost on port 8001 localhost:8001
     Follow the instructions from the website
     Protokol HTTP/1
-![wireshark http1.png](wireshsrk1.png)
-![wireshark http2.png](wiresharkhttp2.png)
+![](wireshsrk1.png)
+![](wiresharkhttp2.png)
 
