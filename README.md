@@ -96,4 +96,5 @@ Create a filedocker-compose.yml
     Follow the instructions from the website
     Protokol HTTP/1
 ![wireshark http1.png](wireshsrk1.png)
+![wireshark http2.png](wiresharkhttp2.png)
 
